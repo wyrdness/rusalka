@@ -1,0 +1,403 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/rusalka",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "rusalka",
+    "name": "Rusalka",
+    "aliases": [
+      {
+        "name": "Rusalki",
+        "language": "Russian",
+        "region": "Russia",
+        "meaning": "plural form"
+      },
+      {
+        "name": "Mavka",
+        "language": "Ukrainian",
+        "region": "Ukraine"
+      },
+      {
+        "name": "Vodnytsia",
+        "language": "Ukrainian",
+        "region": "Ukraine",
+        "meaning": "water woman"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Entity/Spirit",
+    "tags": [
+      "slavic",
+      "water-spirit",
+      "undead",
+      "female",
+      "drowning-victim",
+      "dangerous",
+      "seductive",
+      "folklore"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "Slavic female water spirits, souls of drowned women who died by suicide, murder, or without baptism. Beautiful with green hair and pale skin, they lure men to watery deaths.",
+      "full": "Rusalki are female water spirits from Slavic folklore, believed to be the restless souls of women who died by drowning, whether through suicide, murder, or as unbaptized maidens. Characterized by their ethereal beauty, long green hair, and pale skin, they inhabit rivers, lakes, and ponds. During Rusalka Week (Rusalnaya), they leave the water to dance in forests and fields. They lure men with their beauty and enchanting songs, then tickle them to death or drown them. Some traditions portray them as purely malevolent, while others suggest they can be helpful or protective under certain circumstances."
+    },
+    "etymology": {
+      "origin": "Possibly from 'ruslo' (riverbed) or related to ancient pagan spring festivals 'Rusalii'",
+      "meaning": "Water maiden, drowned spirit",
+      "first_use": "Ancient Slavic traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Water Spirit",
+      "subtype": "Drowned Soul",
+      "variant": "Slavic"
+    },
+    "related_phenomena": [
+      {
+        "id": "vila",
+        "name": "Vila",
+        "relationship": "related",
+        "description": "Similar Slavic nature spirits, some also originate from unchaste/unbaptized women"
+      },
+      {
+        "id": "leshy",
+        "name": "Leshy",
+        "relationship": "related",
+        "description": "Forest spirit counterpart in Slavic mythology"
+      },
+      {
+        "id": "banshee",
+        "name": "Banshee",
+        "relationship": "similar",
+        "description": "Female spirit associated with death, different cultural origin"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.5,
+        "max": 1.8,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "pale white skin",
+        "green hair",
+        "sometimes blue-tinged skin"
+      ],
+      "features": [
+        {
+          "feature": "Long green hair",
+          "description": "Hair like water plants, green or dark with greenish tint",
+          "frequency": "always"
+        },
+        {
+          "feature": "Pale skin",
+          "description": "Deathly pale, sometimes described as translucent or blue-white",
+          "frequency": "always"
+        },
+        {
+          "feature": "Beautiful face",
+          "description": "Enchantingly beautiful, irresistible to mortal men",
+          "frequency": "always"
+        },
+        {
+          "feature": "Human legs",
+          "description": "Unlike Western mermaids, have legs not fish tails",
+          "frequency": "always"
+        },
+        {
+          "feature": "Wet appearance",
+          "description": "Always appear wet, water dripping from hair and clothes",
+          "frequency": "common"
+        },
+        {
+          "feature": "Translucent",
+          "description": "May appear semi-transparent or ghostly",
+          "frequency": "occasional"
+        }
+      ],
+      "morphology": "Appears as beautiful young woman with long green hair and pale skin. Has human form with legs, enabling movement on land during Rusalka Week. Often depicted nude or in white flowing garments."
+    },
+    "abilities": [
+      {
+        "ability": "Enchanting song",
+        "description": "Sings irresistibly beautiful songs that lure victims",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Irresistible beauty",
+        "description": "Supernatural attractiveness that clouds judgment",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Tickling to death",
+        "description": "Tickles victims until they die from exhaustion or drown laughing",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Water control",
+        "description": "Commands water, can create whirlpools and currents",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Dancing",
+        "description": "Performs hypnotic dances that entrance viewers",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Prophecy",
+        "description": "May reveal future or hidden knowledge in some accounts",
+        "frequency": "rare",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "group",
+      "habitat_preference": [
+        "rivers and streams",
+        "lakes and ponds",
+        "mill ponds",
+        "during Rusalka Week: forests and fields"
+      ],
+      "diet": "Not applicable (undead spirit)",
+      "patterns": [
+        "Lure men to water's edge",
+        "Dance and sing to attract victims",
+        "Leave water during Rusalka Week (late spring/early summer)",
+        "May sit in trees combing green hair",
+        "More active during full moon",
+        "Often appear in groups"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Throughout Slavic regions, particularly associated with water bodies in Russia, Ukraine, Belarus, and Eastern Europe.",
+      "continents": ["Europe"],
+      "countries": ["Russia", "Ukraine", "Belarus", "Poland", "Serbia", "Bulgaria"],
+      "regions": [
+        "Russian waterways",
+        "Ukrainian rivers",
+        "Belarusian lakes",
+        "Eastern European wetlands"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Christian Slavic period",
+        "circa": true,
+        "source": "Ancient oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Rusalka Week (Rusalnaya)",
+          "description": "Week before Pentecost when rusalki leave water for land"
+        }
+      ],
+      "seasonal_patterns": "Most active during late spring and early summer, especially Rusalka Week"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Ancient Slavic beliefs about unquiet dead and water spirits. Related to pre-Christian spring fertility festivals and cult of the dead.",
+      "earliest_accounts": "Pre-Christian Slavic oral traditions",
+      "folklore_connections": "Connected to beliefs about improper burial, unbaptized dead, and the necessity of proper death rituals."
+    },
+    "timeline": [
+      {
+        "date": "Pre-9th century",
+        "event": "Pagan Slavic water spirit beliefs",
+        "significance": "Rusalka traditions as part of animistic religion",
+        "source": "Archaeological and anthropological evidence"
+      },
+      {
+        "date": "10th-12th century",
+        "event": "Christianization influences belief",
+        "significance": "Unbaptized dead become source of rusalki",
+        "source": "Historical church records"
+      },
+      {
+        "date": "1841",
+        "event": "Pushkin's poem 'Rusalka'",
+        "significance": "Literary popularization of rusalka folklore",
+        "source": "Published work"
+      },
+      {
+        "date": "1901",
+        "event": "Dvořák's opera 'Rusalka'",
+        "significance": "International cultural recognition",
+        "source": "Opera premiere in Prague"
+      },
+      {
+        "date": "20th-21st century",
+        "event": "Modern cultural adaptations",
+        "significance": "Rusalka in contemporary literature, film, and neopaganism",
+        "source": "Contemporary sources"
+      }
+    ],
+    "modern_era": "Rusalka imagery persists in Slavic culture through opera, ballet, literature, and visual arts. Contemporary Slavic neopaganism sometimes incorporates rusalka traditions."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Rusalka Week (Rusalnaya) observances",
+        "Avoiding swimming during dangerous periods",
+        "Carrying wormwood for protection",
+        "Not swimming alone in isolated areas",
+        "Respecting drowned dead with proper burial"
+      ],
+      "stories": [
+        "Maidens drowned for love becoming rusalki",
+        "Men lured to death by beautiful singers",
+        "Rusalki dancing in moonlit forests",
+        "Protective rusalki helping lost children"
+      ],
+      "beliefs": "Rusalki represent the danger of improper death and unquiet souls. They embody both the allure and danger of water, and the importance of proper burial rites."
+    },
+    "indigenous": {
+      "cultures": [
+        "Russian",
+        "Ukrainian",
+        "Belarusian",
+        "Polish",
+        "Serbian",
+        "Bulgarian"
+      ],
+      "significance": "Reflects Slavic attitudes toward death, baptism, and the natural world. Reinforces social norms around proper burial and Christian sacraments.",
+      "sensitivity_note": "Rusalka traditions remain part of living Slavic cultural heritage and contemporary spiritual practices.",
+      "respect_guidelines": "Recognize as significant cultural tradition, not mere superstition. Understand connection to historical beliefs about death and the afterlife."
+    },
+    "popular_culture": {
+      "literature": [
+        "Alexander Pushkin's 'Rusalka' (1841)",
+        "Gogol's references in various works",
+        "Modern Slavic fantasy literature"
+      ],
+      "film_tv": [
+        "Various Russian and Eastern European films",
+        "Contemporary fantasy adaptations",
+        "Horror interpretations"
+      ],
+      "music": [
+        "Dvořák's opera 'Rusalka' (1901)",
+        "Dargomyzhsky's opera 'Rusalka' (1856)",
+        "Slavic folk songs"
+      ],
+      "other": [
+        "Ballet adaptations",
+        "Visual art and illustration",
+        "Modern neopagan practices"
+      ]
+    }
+  },
+
+  "protection": {
+    "survival_techniques": [
+      {
+        "method": "Carry wormwood",
+        "description": "Wormwood plant repels rusalki",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Avoid water during Rusalka Week",
+        "description": "Do not swim or approach water bodies during dangerous periods",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Make sign of cross",
+        "description": "Christian protection against unquiet dead",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Do not respond to calls",
+        "description": "Ignore voices calling from water, especially at night",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Travel in groups",
+        "description": "Rusalki prefer solitary victims",
+        "effectiveness": "medium"
+      }
+    ]
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Alexander Afanasyev",
+        "affiliation": "Folklorist",
+        "contribution": "Documented rusalka traditions in Russian fairy tales",
+        "period": "19th century"
+      },
+      {
+        "name": "Dmitry Zelenin",
+        "affiliation": "Ethnographer",
+        "contribution": "Studied Slavic folk beliefs including water spirits",
+        "period": "Early 20th century"
+      }
+    ],
+    "ongoing_studies": "Contemporary research focuses on comparative mythology, Slavic paganism revival, and cultural anthropology of death beliefs."
+  },
+
+  "sources": [
+    {
+      "id": "afanasyev-folktales",
+      "type": "book",
+      "title": "Russian Fairy Tales",
+      "authors": ["Alexander Afanasyev"],
+      "publication": "Various editions",
+      "date": "1855-1863"
+    },
+    {
+      "id": "warner-2002",
+      "type": "book",
+      "title": "Russian Myths",
+      "authors": ["Elizabeth Warner"],
+      "publication": "University of Texas Press",
+      "date": "2002",
+      "isbn": "978-0292791657"
+    },
+    {
+      "id": "hubbs-1993",
+      "type": "book",
+      "title": "Mother Russia: The Feminine Myth in Russian Culture",
+      "authors": ["Joanna Hubbs"],
+      "publication": "Indiana University Press",
+      "date": "1993",
+      "isbn": "978-0253328526"
+    }
+  ]
+}
